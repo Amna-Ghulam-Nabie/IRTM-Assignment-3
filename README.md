@@ -84,7 +84,7 @@ This IR system meets all assignment requirements:
  * Reproducible pipeline
  * Clear documentation + source code included
 
-##  Author
+## **Author**
 
 **Amna Ghulam Nabie**
 (Amna-Ghulam-Nabie) Github
