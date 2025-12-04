@@ -2,25 +2,25 @@
 
 This project implements a simple yet powerful Information Retrieval (IR) system using Python, NLTK preprocessing, and BM25 ranking.
 The system loads a dataset of articles, preprocesses the text, builds a BM25 index, and allows the user to interactively search queries from the terminal.
- ## **Features**
+ ## ** Features **
  * Text preprocessing (tokenization, lemmatization, stopword removal)
  * BM25 indexing using rank_bm25 
  * Interactive search from console 
  * Ranked retrieval with document snippets 
  * Works with any CSV dataset 
-## **Technologies Used**
-*Component	Library
-*Language	Python 3
-*Preprocessing	NLTK
-*Ranking Model	BM25 (rank_bm25)
-*Data Handling	pandas
-## **Project Structure**
-|IR-Assignment/ |
-│-- Code.py |
-│-- Articles.csv |
-│-- README.md |
-## **Installation**
-## **Install required libraries**
+## ** Technologies Used **
+* Component	Library
+* Language	Python 3
+* Preprocessing	NLTK
+* Ranking Model	BM25 (rank_bm25)
+* Data Handling	pandas
+## ** Project Structure **
+| IR-Assignment/ |
+│ -- Code.py |
+│ -- Articles.csv |
+│ -- README.md |
+## ** Installation **
+## ** Install required libraries **
 * Run this in VS Code / Terminal:
 * pip install pandas nltk rank-bm25 scikit-learn
 * Usage
@@ -32,14 +32,14 @@ Enter a query to search, or type 'quit' to exit.
 Enter any query:
 Enter Search Query: gold price 
 The system prints top matching documents with BM25 scores.
-## **How It Works**
- Preprocessing
-Lowercasing
-Removing punctuation
-Stopword removal
-Word lemmatization
-Token generation (required for BM25)
- Indexing
+## ** How It Works **
+*  Preprocessing
+*  Lowercasing
+*  Removing punctuation
+*  Stopword removal
+*  Word lemmatization
+*  Token generation (required for BM25)
+ ## **Indexing **
 Documents are converted into token lists and indexed using:
 bm25 = BM25Okapi(tokenized_corpus)
 Querying
@@ -60,8 +60,8 @@ Your dataset must be a CSV file containing at least one text column.
 Make sure to set:
 TEXT_COLUMN = 'Article'
 ## **Requirements**
-Python 3.7+
-pandas
-nltk
-rank_bm25
-scikit-learn
+* Python 3.7+
+* pandas
+* nltk
+* rank_bm25
+* scikit-learn
