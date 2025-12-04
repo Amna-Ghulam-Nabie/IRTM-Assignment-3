@@ -86,7 +86,7 @@ This IR system meets all assignment requirements:
 
 ##  Author
 
-**Amna Ghulam Nabi**
+**Amna Ghulam Nabie**
 (Amna-Ghulam-Nabie) Github
 
 
