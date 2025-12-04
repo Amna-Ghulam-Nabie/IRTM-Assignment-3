@@ -39,7 +39,7 @@ The system prints top matching documents with BM25 scores.
 *  Stopword removal
 *  Word lemmatization
 *  Token generation (required for BM25)
-## **Indexing **
+## ** Indexing **
 Documents are converted into token lists and indexed using:
 bm25 = BM25Okapi(tokenized_corpus)
 Querying
@@ -73,10 +73,21 @@ Snippet: strong>MANILA: Gold climbed to a 13-month high on Friday, buoyed by gai
 --------------------------------------------------
 RANK 8 (Score: 0.3031)
 Snippet: strong>BENGALURU: Gold dropped to a seven-week low on Wednesday, driven by expectations of an early interest rate hike by the U.S. Federal Reserve.</s...```
-## **Requirements**
-* Python 3.7+
-* pandas
-* nltk
-* rank_bm25
-* scikit-learn
+
+##  **Requirements (Assignment Compliance)**
+
+This IR system meets all assignment requirements:
+
+ * Fully local implementation
+ * No cloud-hosted vector DBs
+ * TF-IDF / BM25 / Boolean retrieval
+ * Reproducible pipeline
+ * Clear documentation + source code included
+
+##  Author
+
+**Amna Ghulam Nabi**
+(Amna-Ghulam-Nabie) Github
+
+
 
