@@ -3,27 +3,27 @@
 This project implements a simple yet powerful Information Retrieval (IR) system using Python, NLTK preprocessing, and BM25 ranking.
 The system loads a dataset of articles, preprocesses the text, builds a BM25 index, and allows the user to interactively search queries from the terminal.
  ## **Features**
- Text preprocessing (tokenization, lemmatization, stopword removal)
- BM25 indexing using rank_bm25
- Interactive search from console
- Ranked retrieval with document snippets
- Works with any CSV dataset
+ * **Text preprocessing (tokenization, lemmatization, stopword removal)**
+ * **BM25 indexing using rank_bm25 **
+ * **Interactive search from console **
+ * **Ranked retrieval with document snippets **
+ * **Works with any CSV dataset **
 ## **Technologies Used**
-Component	Library
-Language	Python 3
-Preprocessing	NLTK
-Ranking Model	BM25 (rank_bm25)
-Data Handling	pandas
+*Component	Library
+*Language	Python 3
+*Preprocessing	NLTK
+*Ranking Model	BM25 (rank_bm25)
+*Data Handling	pandas
 ## **Project Structure**
-IR-Assignment/
-│-- Code.py
-│-- Articles.csv
-│-- README.md
+|IR-Assignment/ |
+│-- Code.py |
+│-- Articles.csv |
+│-- README.md |
 ## **Installation**
 ## **Install required libraries**
-Run this in VS Code / Terminal:
-pip install pandas nltk rank-bm25 scikit-learn
- Usage
+* Run this in VS Code / Terminal:
+* pip install pandas nltk rank-bm25 scikit-learn
+* Usage
 Run the main script:
 python Code.py
 You will see:
